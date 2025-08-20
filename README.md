@@ -40,8 +40,7 @@
 
 ---
 
-## Ady Sebastián Sánchez Guevara
-[](https://github.com/adysanchez-10/Grupo-4-oficial/blob/cceec5b94e7fd3e6b09111761818191626b0f767/Im%C3%A1genes/ady.jpeg)
+## ![Ady Sebastián Sánchez Guevara](https://github.com/adysanchez-10/Grupo-4-oficial/blob/cceec5b94e7fd3e6b09111761818191626b0f767/Im%C3%A1genes/ady.jpeg)
 - **Edad:** 18 años  
 - **Información personal:** Interés en el área de clínica.  
 - **Rol:** Programación  
