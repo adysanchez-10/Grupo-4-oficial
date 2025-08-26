@@ -30,6 +30,21 @@ La mayoría de las fibras nerviosas situadas dentro y fuera del cerebro están e
 - **Tratamiento:**
 - **Monitoreo:**
 
+# Esclerosis lateral amiotrófica (ELA)
+### 1. Ficha informativa:
+- **Sistema afectado:** Sistema nervioso.
+- **Breve descripción anatómica / fisiológica:**
+### 2. Factores y análisis de la enfermedad:
+- **Factores de riesgo principales:**
+- **Manifestaciones clínicas más relevantes:**
+- **Breve nota sobre el impacto funcional en la vida diaria:**
+
+### 3. Prevención, diagnóstico, tratamiento y monitoreo:
+- **Prevención:**
+- **Diagnóstico:**
+- **Tratamiento:**
+- **Monitoreo:**
+  
   
 # Amputación
 ### 1. Ficha informativa:
@@ -46,6 +61,21 @@ La mayoría de las fibras nerviosas situadas dentro y fuera del cerebro están e
 - **Monitoreo:**
 
   
+# Artritis
+- **Sistema afectado:** Sistema nervioso.
+- **Breve descripción anatómica / fisiológica:**
+### 2. Factores y análisis de la enfermedad:
+- **Factores de riesgo principales:**
+- **Manifestaciones clínicas más relevantes:**
+- **Breve nota sobre el impacto funcional en la vida diaria:**
+
+### 3. Prevención, diagnóstico, tratamiento y monitoreo:
+- **Prevención:**
+- **Diagnóstico:**
+- **Tratamiento:**
+- **Monitoreo:**
+
+
 # Escoliosis
 ### 1. Ficha informativa:
 - **Sistema afectado:** Sistema nervioso.
@@ -62,27 +92,11 @@ La mayoría de las fibras nerviosas situadas dentro y fuera del cerebro están e
 - **Tratamiento:**
 - **Monitoreo:**
 
-
-# Esclerosis lateral amiotrófica (ELA)
+# Parálisis cerebral
 ### 1. Ficha informativa:
 - **Sistema afectado:** Sistema nervioso.
 - **Breve descripción anatómica / fisiológica:**
-### 2. Factores y análisis de la enfermedad:
-- **Factores de riesgo principales:**
-- **Manifestaciones clínicas más relevantes:**
-- **Breve nota sobre el impacto funcional en la vida diaria:**
-
-### 3. Prevención, diagnóstico, tratamiento y monitoreo:
-- **Prevención:**
-- **Diagnóstico:**
-- **Tratamiento:**
-- **Monitoreo:**
-
   
-
-# Artritis
-- **Sistema afectado:** Sistema nervioso.
-- **Breve descripción anatómica / fisiológica:**
 ### 2. Factores y análisis de la enfermedad:
 - **Factores de riesgo principales:**
 - **Manifestaciones clínicas más relevantes:**
@@ -93,3 +107,4 @@ La mayoría de las fibras nerviosas situadas dentro y fuera del cerebro están e
 - **Diagnóstico:**
 - **Tratamiento:**
 - **Monitoreo:**
+
