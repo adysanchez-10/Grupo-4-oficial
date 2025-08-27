@@ -32,8 +32,12 @@ Limitación en autocuidado, trabajo y vida social. Más del 50% reporta dificult
 
 ## 3. Prevención, diagnóstico, tratamiento y monitoreo (EM)
 
-- **Prevención:** Evitar tabaco, obesidad, déficit de vitamina D y EBV.  
-- **Diagnóstico:** Criterios de McDonald (2017) con RM y análisis de LCR.  
+- **Prevención:** En muchos casos no va a ser posible prevenir la OA ni otros tipos de artritis, tal como la artritis reumatoide. No obstante, aunque algunos factores que contribuyen al desarrollo de la artritis pueden estar fuera de su control, ciertos cambios en el estilo de vida pueden reducir las posibilidades de desarrollar síntomas graves. Incorporar modificaciones en el estilo de vida, como consumir omega-3 (para el caso de la artritis reumatoide especialmente) [7] , controlar el peso y hacer ejercicio regularmente [8], puede ayudar a reducir la probabilidad de desarrollar artritis o retrasar sus síntomas [9]. Proteger las articulaciones, tratar las infecciones, adoptar una postura más ergonómica y controlar el nivel de azúcar en sangre son estrategias adicionales que pueden ayudar a prevenir y controlar la artritis [10].
+  
+- **Diagnóstico:** Durante el examen físico, el médico evalúa la articulación afectada buscando sensibilidad, inflamación, enrojecimiento y pérdida de flexibilidad [2]:
+* Pruebas por imágenes: Radiografías y resonancia magnética
+* Análisis de laboratorio: Análisis de sangre y análisis de líquido sinovial
+ 
 - **Tratamiento:** Fármacos modificadores de la enfermedad (interferones, natalizumab, ocrelizumab, fumaratos), rehabilitación.  
 - **Monitoreo:** Evaluaciones clínicas periódicas, RM anual y apps para seguimiento.  
 
