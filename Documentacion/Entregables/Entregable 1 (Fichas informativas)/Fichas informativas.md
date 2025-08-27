@@ -1,26 +1,42 @@
 # Esclerosis múltiple (EM)
 ### 1. Ficha informativa:
 - **Sistema afectado:** Sistema nervioso.
-- **Breve descripción anatómica / fisiológica:** Es una enfermedad crónica inflamatoria, la cual causa daño a la mielina del sistema nervioso central, que afecta principalmente al cerebro y la médula espinal. [1] De manera anatómica se caracteriza por la pérdida de mielina (la capa que recubre y protege las fibras nerviosas) y daño axonal, lo que genera lesiones dispersas en la sustancia blanca y, en menor medida, en la sustancia gris del sistema nervioso central (observable mediante resonancia magnética). [2] Para el lado fisiológico, la EM implica una respuesta inmunitaria anormal que ataca la mielina, así se interrumpe la transmisión de los impulsos eléctricos a lo largo de las neuronas y provocando síntomas neurológicos variables según la localización de las lesiones. [3]. Los daños provocados, mencionados previamente, se deben por el proceso patológico que involucra una respuesta inmunitaria anómala, donde linfocitos T y B autorreactivos cruzan la barrera hematoencefálica. [4]
+- **Breve descripción anatómica / fisiológica:** Es una enfermedad crónica inflamatoria, la cual causa daño a la mielina del sistema nervioso central, que afecta principalmente al cerebro y la médula espinal [1]. De manera anatómica se caracteriza por la pérdida de mielina (la capa que recubre y protege las fibras nerviosas) y daño axonal, lo que genera lesiones dispersas en la sustancia blanca y, en menor medida, en la sustancia gris del sistema nervioso central (observable mediante resonancia magnética) [2]. Para el lado fisiológico, la EM implica una respuesta inmunitaria anormal que ataca la mielina, así se interrumpe la transmisión de los impulsos eléctricos a lo largo de las neuronas y provocando síntomas neurológicos variables según la localización de las lesiones [3]. Los daños provocados, mencionados previamente, se deben por el proceso patológico que involucra una respuesta inmunitaria anómala, donde linfocitos T y B autorreactivos cruzan la barrera hematoencefálica [4].
 
    Aislamiento de una fibra nerviosa:
-La mayoría de las fibras nerviosas situadas dentro y fuera del cerebro están envueltas por varias capas de tejido compuesto por una grasa (lipoproteína) denominada mielina. Estas capas forman la vaina de mielina. De forma semejante al aislamiento alrededor de un cable eléctrico, la vaina de mielina permite la conducción de las señales nerviosas (los impulsos eléctricos) a lo largo de la fibra nerviosa con velocidad y precisión. Cuando la vaina de mielina está lesionada (se denomina desmielinización), los nervios no conducen los impulsos eléctricos con normalidad. [5]
+La mayoría de las fibras nerviosas situadas dentro y fuera del cerebro están envueltas por varias capas de tejido compuesto por una grasa (lipoproteína) denominada mielina. Estas capas forman la vaina de mielina. De forma semejante al aislamiento alrededor de un cable eléctrico, la vaina de mielina permite la conducción de las señales nerviosas (los impulsos eléctricos) a lo largo de la fibra nerviosa con velocidad y precisión. Cuando la vaina de mielina está lesionada (se denomina desmielinización), los nervios no conducen los impulsos eléctricos con normalidad [5].
 ### 2. Factores y análisis de la enfermedad:
 - **Factores de riesgo principales:**
   
-  **A. Infección Virus de Epstein-Barr (EBV):** La infección por EBV es un factor desencadenante importante, ya que casi todos los pacientes con EM presentan seropositividad para EBV antes del inicio de la enfermedad, aumentando 32 veces el riesgo de padecerla. [1]
+  **A. Infección Virus de Epstein-Barr (EBV):** La infección por EBV es un factor desencadenante importante, ya que casi todos los pacientes con EM presentan seropositividad para EBV antes del inicio de la enfermedad, aumentando 32 veces el riesgo de padecerla [1].
   
+  **B. Génicos y poligénicos:** Los scores de riesgo poligénico permiten identificar individuos con riesgo hasta 15 veces mayor que la media poblacional, la EM presenta más de 200 variables genéticas asociadas [7].
 
-- **Manifestaciones clínicas más relevantes:**
-- **Breve nota sobre el impacto funcional en la vida diaria:**
+  **C. Factores modificables:**
+  
+   :small_blue_diamond: **Tabaquismo:** Las personas que fuman como hábito tienen un 41% más de padecer EM. [8] Se ha demostrado que fumar puede desencadenar el desarrollo de linfocitos T autoagresivos, que presentan reactividad cruzada con antígenos del SNC en la EM [9].
+  
+   :small_blue_diamond: **Sobrepeso en la infancia/adolescencia:** Se observa que las mujeres en etapa de adolescencia incrementa su probabilidad de padecer EM, sin embargo, no se encuentra una fuerte relación con los hombres ni en la etapa infantil [10]. En general, las enfermedades que presentan inflamación crónica están relacionadas con la obesidad, esta inflamación podría ser promovida por un microbioma intestinal alterado, que se encuentra a menudo en este grupo de pacientes [11].
+
+  **D. Ambientales, geográficos y sociodemográficos:** El riesgo de EM dependiente de la latitud podría explicarse por la menor exposición a la luz solar en el norte en comparación con las regiones del sur [12]. Esta menor exposición solar también podría explicar los niveles séricos de vitamina D más bajos, comúnmente encontrados en pacientes con EM [13]. Además de regular la síntesis de vitamina D, la radiación UVB podría mejorar los síntomas de la EM al inhibir la producción de citocinas proinflamatorias [14].
+
+- **Manifestaciones clínicas más relevantes:** Los síntomas más frecuentes incluyen fatiga, alteraciones visuales (como la neuritis óptica, que puede ser el primer síntoma en hasta un 22% de los casos y afecta a más de un tercio de los pacientes), dificultades motoras (debilidad, espasticidad, temblor), problemas de movilidad y equilibrio, y trastornos sensoriales [15]. Otros síntomas comunes son la disfunción cognitiva, dolor, alteraciones esfinterianas (como incontinencia urinaria), y síntomas psiquiátricos como depresión y ansiedad [16].
+  
+- **Breve nota sobre el impacto funcional en la vida diaria:** Esta enfermedad limita significativamente la capacidad para realizar actividades cotidianas como el autocuidado, las tareas domésticas y la movilidad, es consecuencia, pierden su autonomía (casi a la mitad empeora a los 2 años). Más del 50% de las personas con EM reportan dificultades en actividades diarias debido a fatiga, debilidad, problemas de equilibrio, alteraciones cognitivas y trastornos del sueño. También afecta el área laboral con hasta el 64% de los pacientes reportando dificultades para conservar su trabajo y el 50% con problemas para progresar profesionalmente. El 70% de los pacientes señala preocupación por la progresión de la enfermedad y la discapacidad futura, y casi la mitad reporta un deterioro en su bienestar emocional y en su perspectiva de futuro [16].
 
 ### 3. Prevención, diagnóstico, tratamiento y monitoreo:
-- **Prevención:**
-- **Diagnóstico:**
-- **Tratamiento:**
-- **Monitoreo:**
+- **Prevención:** Reducir la exposición a factores de riesgo modificables como el tabaquismo, la deficiencia de vitamina D, la obesidad en la adolescencia y la infección por el virus de Epstein-Barr. También debemos incluir estrategias de salud pública, educación y vacunas (por ejemplo, contra EBV) podrían disminuir la incidencia de la enfermedad [17].
 
+- **Diagnóstico:** El diagnóstico de EM se basa en los criterios de McDonald (actualizados en 2017), que requieren evidencia de disgregación en tiempo y espacio de las lesiones desmielinizantes a través de la resonancia magnética (RM) y, en algunos casos, análisis de bandas oligoclonales en líquido cefalorraquídeo. Existen mejores posibilidades de tratamiento cuando se diagnostica tempranamente [18]. Nuevas herramientas computacionales y biomarcadores están mejorando la precisión diagnóstica y diferenciando la EM de otros trastornos [19].
 
+- **Tratamiento:** El tratamiento incluye fármacos modificadores de la enfermedad (DMTs) clasificados según su eficacia (baja, moderada, alta), como interferones, ocrelizumab, natalizumab y fumaratos. La elección depende del perfil del paciente y la actividad de la enfermedad. El inicio temprano y el uso de terapias de alta eficacia pueden retrasar la progresión y reducir recaídas. El manejo sintomático y la rehabilitación también son necesarios [18].
+
+- **Monitoreo:** El seguimiento se realiza con evaluaciones clínicas periódicas y RM anual para detectar actividad subclínica y ajustar el tratamiento. Herramientas computacionales y aplicaciones móviles están mejorando la detección de recaídas, caídas y la adherencia terapéutica, permitiendo intervenciones más personalizadas [19].
+
+- **Reflexión ingenieril:**
+   :small_blue_diamond: Diagnóstico temprano
+   :small_blue_diamond: Problemas de movilidad y equilibrio
+   :small_blue_diamond: Alteraciones esfinterianas
 # Lesión en la Médula Espinal (LME)
 - **Sistema afectado:** Sistema nervioso.
 - **Breve descripción anatómica / fisiológica:** Según la Organización Mundial de la Salud (OMS), las lesiones de la médula espinal se definen como “los daños causados en la médula espinal ya sea por traumatismos, causas no traumáticas o defectos congénitos” [1]. Anatómicamente, la médula espinal está protegida por la columna vertebral y se extiende desde el bulbo raquídeo, en la base posterior del cráneo, hasta las vértebras lumbares superiores [2]. Las lesiones pueden originarse por fuerzas mecánicas, procesos inflamatorios, compresiones tumorales o eventos vasculares que producen daños el tejido nervioso medular, por lo que se compromete la transmisión de impulsos entre el cerebro y el resto del cuerpo, así como funciones reflejas y autónomas [3]. De esta manera, la fisiología de la médula espinal se ve afectada, el grado del daño depende de la zona en la que se produjo la lesión y si se trató de una lesión completa o incompleta, las consecuencias pueden variar desde déficits motores y sensitivos leves hasta pérdida funcional severa, con impacto potencial significativo en la calidad de vida del paciente [3], [4]. Y en esencia, mientras la lesión se dé en la parte de más “arriba” de la médula el rango de afecciones que puede causar se incrementa [5].
