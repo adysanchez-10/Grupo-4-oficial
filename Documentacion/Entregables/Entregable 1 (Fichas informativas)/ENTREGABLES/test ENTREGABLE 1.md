@@ -1,8 +1,6 @@
-# Entregable 1
+# Esclerosis múltiple (EM)
 
----
-
-## 1. Ficha de la enfermedad: Esclerosis múltiple (EM)
+## 1. Ficha de la enfermedad: 
 
 - **Sistema afectado:** Neurológico  
 - **Breve descripción anatómica/fisiológica:**  
