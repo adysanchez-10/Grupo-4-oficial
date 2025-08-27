@@ -214,7 +214,7 @@ Los investigadores continúan estudiando las posibles causas de la ELA. La mayor
   
 # Artritis
 - **Sistema afectado:** Sistema nervioso.
-- **Breve descripción anatómica / fisiológica:**
+- **Breve descripción anatómica / fisiológica:** 
 ### 2. Factores y análisis de la enfermedad:
 - **Factores de riesgo principales:**
 - **Manifestaciones clínicas más relevantes:**
