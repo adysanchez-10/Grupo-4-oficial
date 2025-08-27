@@ -198,14 +198,17 @@ BMC Neurology (2021), Mayo Clinic (2024), ALS Association (2025), Cuffaro (2024)
 
 ## 1. Ficha de la enfermedad
 - **Sistema afectado:** Musculoesquelético  
-- **Descripción:** Inflamación y daño en las articulaciones. La OA es el tipo más común.  
+- **Descripción:** La artritis es un término general que se utiliza para referirse a las afecciones que afectan a las articulaciones, los tejidos que rodean las articulaciones y otros tejidos conectivos. Se caracteriza por la presencia de inflamación y sensibilidad en las articulaciones. Existen más de 100 tipos de artritis [1], [2]. Para propósitos del presente informe, se investigará solamente el tipo más prevalente de artritis, que es la osteoartritis (OA). La OA se define como el deterioro progresivo del cartílago articular, seguido de inflamación en la cavidad sinovial [3]. 
+Antes de la década de 1990, la OA se describía como el desgaste del cartílago, en el que el cartílago articular se degrada debido a la presión incremental sobre una articulación concreta. Con el avance de la biología molecular, el paradigma de la fisiopatología de la OA ha cambiado y ahora se describe como una enfermedad inflamatoria de las articulaciones. Esto se debe al descubrimiento de varios mediadores inflamatorios que activan los condrocitos para producir metaloproteinasas de matriz (MMP), que desempeñan un papel importante en la degradación de la matriz articular [3].
+La osteoartritis (OA) es un trastorno articular complejo y progresivo que se caracteriza por cambios multifactoriales que varían en cuanto a su aparición y gravedad entre las personas. Los primeros cambios patológicos comienzan en el cartílago articular, donde aparece fibrilación superficial en las regiones sometidas a mayor estrés mecánico. En respuesta a la pérdida de matriz, los condrocitos —el único tipo de célula del cartílago— proliferan y pueden cambiar a un fenotipo hipertrófico, imitando a las células de la placa de crecimiento. Este cambio fenotípico, junto con la producción de citocinas proinflamatorias y proteasas, impulsa la degradación continua de la matriz y conduce a la apoptosis de los condrocitos, dejando regiones de matriz acelulares [4].
+Simultáneamente, el hueso subcondral sufre un engrosamiento y una esclerosis, a menudo inversamente proporcionales al alcance del daño del cartílago. La OA avanzada muestra formación de osteofitos y quistes subcondrales, influenciados por las fuerzas biomecánicas y el estrechamiento del espacio articular. La inflamación sinovial (sinovitis), aunque no inicia la OA primaria, exacerba los síntomas y contribuye a la progresión de la enfermedad [5]. Los conocimientos recientes enfatizan el papel de los mediadores inflamatorios, las proteasas y la alteración de la señalización celular, destacando la complejidad bioquímica y sistémica de la enfermedad [6].
 
 ---
 
 ## 2. Factores y análisis
-- **Factores de riesgo:** Edad, obesidad, lesiones, genética, factores anatómicos.  
-- **Manifestaciones clínicas:** Dolor, rigidez, reducción de movilidad.  
-- **Impacto funcional:** Discapacidad significativa, depresión y trastornos del sueño.  
+- **Factores de riesgo:** La OA tiene una etiología multifactorial. Se puede considerar como el resultado final de una interacción entre factores locales y sistémicos [3]: edad, obesidad, lesiones, genética, factores anatómicos.  
+- **Manifestaciones clínicas:** Los principales síntomas de la OA son dolor, rigidez articular, deterioro articular y reducción del rango de movimiento. Las manifestaciones clínicas incluyen [3]: dolor (varía según si la osteoartritis se encuentra en fase temprana, intermedia o avanzada), rigidez e inflamación de la articulación, alargamiento e inflamación de los huesos.
+- **Impacto funcional:** Debido a la rigidez y al dolor crónico que empeora con el tiempo a causa de la OA en la articulación, los pacientes experimentan una discapacidad significativa en su vida diaria. Como consecuencia del dolor e impedimento de la artrosis, pueden aparecer depresión y trastornos del sueño. Asimismo, se estima que afecta a uno de cada cinco adultos a nivel global y es la causa principal de incapacidad laboral en adultos. [2], [3]. 
 
 ---
 
