@@ -34,9 +34,16 @@ La mayoría de las fibras nerviosas situadas dentro y fuera del cerebro están e
 - **Monitoreo:** El seguimiento se realiza con evaluaciones clínicas periódicas y RM anual para detectar actividad subclínica y ajustar el tratamiento. Herramientas computacionales y aplicaciones móviles están mejorando la detección de recaídas, caídas y la adherencia terapéutica, permitiendo intervenciones más personalizadas [19].
 
 - **Reflexión ingenieril:**
+  
    :small_blue_diamond: Diagnóstico temprano
+  
    :small_blue_diamond: Problemas de movilidad y equilibrio
+  
    :small_blue_diamond: Alteraciones esfinterianas
+
+### REFERENCIAS:
+
+  
 # Lesión en la Médula Espinal (LME)
 - **Sistema afectado:** Sistema nervioso.
 - **Breve descripción anatómica / fisiológica:** Según la Organización Mundial de la Salud (OMS), las lesiones de la médula espinal se definen como “los daños causados en la médula espinal ya sea por traumatismos, causas no traumáticas o defectos congénitos” [1]. Anatómicamente, la médula espinal está protegida por la columna vertebral y se extiende desde el bulbo raquídeo, en la base posterior del cráneo, hasta las vértebras lumbares superiores [2]. Las lesiones pueden originarse por fuerzas mecánicas, procesos inflamatorios, compresiones tumorales o eventos vasculares que producen daños el tejido nervioso medular, por lo que se compromete la transmisión de impulsos entre el cerebro y el resto del cuerpo, así como funciones reflejas y autónomas [3]. De esta manera, la fisiología de la médula espinal se ve afectada, el grado del daño depende de la zona en la que se produjo la lesión y si se trató de una lesión completa o incompleta, las consecuencias pueden variar desde déficits motores y sensitivos leves hasta pérdida funcional severa, con impacto potencial significativo en la calidad de vida del paciente [3], [4]. Y en esencia, mientras la lesión se dé en la parte de más “arriba” de la médula el rango de afecciones que puede causar se incrementa [5].
