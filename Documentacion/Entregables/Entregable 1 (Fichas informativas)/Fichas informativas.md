@@ -43,6 +43,70 @@ La mayoría de las fibras nerviosas situadas dentro y fuera del cerebro están e
 
 ### REFERENCIAS:
 
+
+[1]   K. Bjornevik et al., “Longitudinal analysis reveals high prevalence of Epstein-Barr virus associated with multiple sclerosis,”  
+    *Science*, vol. 375, pp. 296–301, 2022. doi: [10.1126/science.abj8222](https://doi.org/10.1126/science.abj8222)
+
+[2]  P. S. Jacobs et al., “Diffuse nuclear Overhauser effect MRI contrast changes detected in multiple sclerosis subjects at 7T,”  
+        *Brain Commun.*, vol. 7, 2025. doi: [10.1093/braincomms/fcaf043](https://doi.org/10.1093/braincomms/fcaf043)
+
+[3]  S. Martin et al., “Prefer. Attitudes Early Interv. Mult. Scler. Syst. Lit. Rev.,”  
+        *Mult. Scler. Relat. Disord.*, vol. 92, p. 106143, 2024. doi: [10.1016/j.msard.2024.106143](https://doi.org/10.1016/j.msard.2024.106143)
+
+[4]  R. Liu et al., “Autoreactive lymphocytes in multiple sclerosis: Pathogenesis and treatment target,”  
+     *Front. Immunol.*, vol. 13, núm. 996469, pp. 2–14, sep. 2022. doi: [10.3389/fimmu.2022.996469](https://doi.org/10.3389/fimmu.2022.996469)
+
+[5]  M. C. Levin, “Introducción a los trastornos desmielinizantes,” Manual MSD, mayo de 2023.  
+     [En línea]. Disponible en: [https://www.msdmanuals.com/es/hogar/enfermedades-cerebrales-medulares-y-nerviosas/esclerosis-múltiple-y-trastornos-afines/introducción-a-los-trastornos-desmielinizantes](https://www.msdmanuals.com/es/hogar/enfermedades-cerebrales-medulares-y-nerviosas/esclerosis-múltiple-y-trastornos-afines/introducción-a-los-trastornos-desmielinizantes)
+
+[6]  I. Piquero, “Diferencia entre sustancia gris y blanca del cerebro,” Psicología-Online.  
+     [En línea]. Disponible en: [https://www.psicologia-online.com/diferencia-entre-sustancia-gris-y-blanca-del-cerebro-5603.html](https://www.psicologia-online.com/diferencia-entre-sustancia-gris-y-blanca-del-cerebro-5603.html)
+
+[7]  H. Shams et al., “Polygenic risk score association with multiple sclerosis susceptibility and phenotype in Europeans,”  
+     *Brain J. Neurol.*, 2022. doi: [10.1093/brain/awac092](https://doi.org/10.1093/brain/awac092)
+
+[8]  A. Manouchehrinia et al., “Smoking attributable risk in multiple sclerosis,”  
+     *Front Immunol.*, vol. 3, núm. 13, 2022. doi: [10.3389/fimmu.2022.840158](https://doi.org/10.3389/fimmu.2022.840158)
+
+[9]  A. K. Hedström et al., “The interaction between smoking and HLA genes in multiple sclerosis: replication and refinement,”  
+     *Eur J Epidemiol.*, vol. 32, núm. 10, pp. 19–909, 2017. doi: [10.1007/s10654-017-0250-2](https://doi.org/10.1007/s10654-017-0250-2)
+
+[10] A. Langer-Gould, S. M. Brara, B. E. Beaber y C. Koebnick,  
+     “Childhood obesity and risk of pediatric multiple sclerosis and clinically isolated syndrome,”  
+     *Neurology.*, vol. 80, núm. 6, pp. 52–548, 2013. doi: [10.1212/WNL.0b013e31828154f3](https://doi.org/10.1212/WNL.0b013e31828154f3)
+
+[11] D. Michalovich et al., “Obesity and disease severity magnify disturbed microbiome-immune interactions in asthma patients,”  
+     *Nat Commun.*, vol. 10, núm. 1, p. 5711, 2019. doi: [10.1038/s41467-019-13751-9](https://doi.org/10.1038/s41467-019-13751-9)
+
+[12] R. Tarlinton et al., “The interaction between viral and environmental risk factors in the pathogenesis of multiple sclerosis,”  
+     *Int J Mol Sci.*, vol. 20, núm. 2, p. 303, 2019. doi: [10.3390/ijms20020303](https://doi.org/10.3390/ijms20020303)
+
+[13] C. Tao et al., “Higher latitude is significantly associated with an earlier age of disease onset in multiple sclerosis,”  
+     *J Neurol Neurosurg Psychiatry*, vol. 87, núm. 12, pp. 9–1343, 2016. doi: [10.1136/jnnp-2016-314013](https://doi.org/10.1136/jnnp-2016-314013)
+
+[14] Y. Wang et al., “Light selectively inhibits spinal cord inflammation UV and demyelination in experimental autoimmune encephalomyelitis,”  
+     *Arch Biochem Biophys*, vol. 567, pp. 75–82, 2015. doi: [10.1016/j.abb.2014.12.017](https://doi.org/10.1016/j.abb.2014.12.017)
+
+[15] J. Kraker et al., “Ocular Manifestations of Multiple Sclerosis: A Population-Based Study,”  
+     *J. Neuroophthalmol.*, vol. 44, pp. 157–161, 2024. doi: [10.1097/WNO.0000000000002116](https://doi.org/10.1097/WNO.0000000000002116)
+
+[16] A. Barrett et al., “Understanding the Symptoms and Impacts Experienced by People with Relapsing–Remitting MS: A Qualitative Investigation Using Semi-Structured Interviews,”  
+     *Neurol. Ther.*, vol. 13, pp. 449–464, 2024. doi: [10.1007/s40120-024-00584-y](https://doi.org/10.1007/s40120-024-00584-y)
+
+[17] B. Bebo et al., “Pathways to cures for multiple sclerosis: A research roadmap,”  
+     *Mult. Scler.*, vol. 28, pp. 331–345, 2022. doi: [10.1177/13524585221075990](https://doi.org/10.1177/13524585221075990)
+
+[18] A. Baskaran, E. Grebenciucova, T. Shoemaker y E. Graham, “Updates on the Diagnosis and Management of Multiple Sclerosis for the General Neurologist,”  
+     *J. Clin. Neurol.*, vol. 19, pp. 217–229, 2023. doi: [10.3988/jcn.2022.0208](https://doi.org/10.3988/jcn.2022.0208)
+
+[19] S. Thakur, M. Schindler, M. Bilello y S. Bakas, “Clinically Deployed Computational Assessment of Multiple Sclerosis Lesions,”  
+     *Front. Med.*, vol. 9, 2022. doi: [10.3389/fmed.2022.797586](https://doi.org/10.3389/fmed.2022.797586)
+
+[20] “Esclerosis múltiple,” Diagnóstico Especializado. [En línea].  
+     Disponible en: [https://www.deidiagnostico.com/esclerosis-multiple/](https://www.deidiagnostico.com/esclerosis-multiple/)
+
+[21] “Esclerosis Múltiple,” Neurobase. [En línea].  
+     Disponible en: [https://neurobase.es/tratamientos/tratamientos-en-adultos/esclerosis-multiple](https://neurobase.es/tratamientos/tratamientos-en-adultos/esclerosis-multiple)
   
 # Lesión en la Médula Espinal (LME)
 - **Sistema afectado:** Sistema nervioso.
@@ -63,13 +127,64 @@ La mayoría de las fibras nerviosas situadas dentro y fuera del cerebro están e
 
 - **Monitoreo:** El monitoreo del paciente frente a su rehabilitación es importante para tener un registro de su evolución. Se necesita seguir un proceso de rehabilitación junto con terapia ocupacional para recuperar el tono muscular y la capacidad sensitiva [3].
 
+### Reflexión ingenieril:
+- **Rehabilitación:** Se pueden sugerir tecnologías no invasivas que propicien la rehabilitación adecuada de los pacientes, tomando en cuenta el factor psicológico dentro del proceso.
+  
+### REFERENCIAS:
+[1]  Organización Mundial de la Salud, "Lesión de la médula espinal", nota informativa, 16 abr. 2024. [En línea].  
+     Disponible en: [https://www.who.int/es/news-room/fact-sheets/detail/spinal-cord-injury](https://www.who.int/es/news-room/fact-sheets/detail/spinal-cord-injury)
+
+[2]  M. Rubin, “Generalidades sobre los trastornos medulares”, Manual MSD versión para profesionales, revisado por M. C. Levin, mar. 2025. [En línea].  
+     Disponible en: [https://www.msdmanuals.com/es/professional/trastornos-neurol%C3%B3gicos/trastornos-de-la-m%C3%A9dula-espinal/generalidades-sobre-los-trastornos-medulares](https://www.msdmanuals.com/es/professional/trastornos-neurol%C3%B3gicos/trastornos-de-la-m%C3%A9dula-espinal/generalidades-sobre-los-trastornos-medulares)
+
+[3]  G. Mao, “Traumatismo espinal”, Manual MSD versión para profesionales, modificado jul. 2023. [En línea].  
+     Disponible en: [https://www.msdmanuals.com/es/professional/lesiones-y-envenenamientos/traumatismo-espinal/traumatismo-espinal#Etiolog%C3%ADa_v1111830_es](https://www.msdmanuals.com/es/professional/lesiones-y-envenenamientos/traumatismo-espinal/traumatismo-espinal#Etiolog%C3%ADa_v1111830_es)
+
+[4]  A. Xavier, J. de Souza Pereira, R. da Silva Monteiro, V. V. Cruz, H. F. da Silva y W. C. A. Machado,  
+     “Intervenções de Enfermagem de reabilitação ao paciente com lesão medular: Protocolo de Revisão de escopo,”  
+     *Rev. Port. Enf. Reab.*, vol. 7, no. 1, e358, 27 mar. 2024. [En línea].  
+     Disponible en: [https://rper.aper.pt/index.php/rper/article/view/358](https://rper.aper.pt/index.php/rper/article/view/358)
+
+[5]  J. Bickenbach, A. Officer, T. Shakespeare, y P. von Groote, Eds., *International Perspectives on Spinal Cord Injury*.  
+     Geneva, Switzerland: World Health Organization (WHO), 2013. ISBN 978-92-4-156466-3.
+
+[6]  Y. Sotomayor y D. Reyes, "Vulnerabilidad del adulto mayor con lesión cervical traumática,"  
+     *Medisur*, vol. 21, no. 6, pp. 1219–1224, 2023. [En línea].  
+     Disponible en: [https://medisur.sld.cu/index.php/medisur/article/view/5850](https://medisur.sld.cu/index.php/medisur/article/view/5850)
+
+[7]  J. Lee, J. Varghese, R. Brooks y B. J. Turpen, “A Primary Care Provider’s Guide to Accessibility After Spinal Cord Injury,”  
+     *Top Spinal Cord Inj Rehabil.*, vol. 26, no. 2, pp. 79–84, Spring 2020.  
+     doi: [10.46292/sci2602-79](https://doi.org/10.46292/sci2602-79) – [PMCID: PMC7384542](https://pmc.ncbi.nlm.nih.gov/articles/PMC7384542/)
+
 
 # Esclerosis lateral amiotrófica (ELA)
 ### 1. Ficha informativa:
 - **Sistema afectado:** Sistema nervioso.
-- **Breve descripción anatómica / fisiológica:**
+- **Breve descripción anatómica / fisiológica:** La esclerosis lateral amiotrófica (ELA) es una enfermedad rara de la neurona motora, de origen desconocido, que causa la destrucción progresiva de las neuronas motoras, lo que conlleva la pérdida de la función del músculo esquelético y, finalmente, la alteración del habla, la deglución, la marcha y la respiración. Es una enfermedad neurodegenerativa devastadora asociada con demencia frontotemporal en hasta el 15 % de los pacientes. Generalmente, sigue un curso rápidamente mortal con una mediana de supervivencia de 24 a 48 meses, aunque con una amplia variabilidad. [1]
+
+   La ELA afecta las células nerviosas que controlan los movimientos voluntarios de los músculos, como para caminar y hablar. Estas células nerviosas se llaman neuronas motoras. Hay dos grupos de neuronas motoras. El primer grupo se extiende desde el cerebro hasta la médula espinal y los músculos de todo el cuerpo. Se denominan neuronas motoras superiores. El segundo grupo se extiende desde la médula espinal hasta los músculos de todo el cuerpo. Se denominan neuronas motoras inferiores.
+
+   La ELA hace que los dos grupos de neuronas motoras se deterioren progresivamente y luego mueran. Cuando las neuronas motoras se dañan, dejan de enviar mensajes a los músculos, por lo que estos no pueden funcionar.
+En alrededor del 10 % de las personas con ELA, se puede identificar una causa genética. En el resto de los casos, se desconoce la causa.
+Los investigadores continúan estudiando las posibles causas de la ELA. La mayoría de las teorías se centran en una interacción compleja entre genes y factores ambientales.[2]
+
+
 ### 2. Factores y análisis de la enfermedad:
 - **Factores de riesgo principales:**
+
+  :small_blue_diamond: **Edad:** El riesgo aumenta después de los 75 años. La ELA es más común entre los 60 y los 85 años.
+
+  :small_blue_diamond: **Sexo:** Antes de los 65 años, la ELA es un poco más común en hombres que en mujeres. Esta diferencia de sexo desaparece después de los 70 años. 
+
+  :small_blue_diamond: **Fumar:** Las pruebas demuestran que fumar es un factor de riesgo ambiental de ELA. Las mujeres que fuman parecen tener un riesgo incluso mayor, especialmente después de la menopausia. 
+
+  :small_blue_diamond: **Servicio militar:** Los estudios indican que las personas que han formado parte del servicio militar tienen un mayor riesgo de presentar ELA. No está claro qué factor del servicio militar podría desencadenar la ELA. Podría ser la exposición a ciertos metales o sustancias químicas, lesiones traumáticas, infecciones virales o esfuerzo intenso. [2]
+
+  :small_blue_diamond: **Exposición a toxinas ambientales:** A lo largo de los años, muchos estudios de investigación han analizado la relación entre la ELA y las sustancias tóxicas en el medio ambiente; entre ellos destacan Beta-metilamino-L-alanina (BMAA); metales pesados como plomo, manganeso, mercurio, zinc y cobre; Pesticidas, herbicidas e insecticidas; Disolventes, como benceno, formaldehído y cloruro de metileno. La BMAA es el factor ambiental más estudiado asociado con la ELA. Se identificó originalmente en las semillas de cícadas en Guam después de que la ELA se volviera entre 50 y 100 veces más común de lo esperado entre el pueblo Chamorro, cuya dieta tradicional incluía estas semillas, entre 1940 y 1965. Según una revisión de 258 estudios realizada en 2022, existe una fuerte asociación entre la BMAA y la ELA.
+
+  :small_blue_diamond: **Genética:** En alrededor del 10 % de las personas con ELA, el gen de riesgo fue transmitido por un familiar. Esto se conoce como ELA hereditaria. Estas mutaciones se encuentran con mayor frecuencia en los  genes C9orf72 , SOD1 , FUS y TARDBP , al menos en personas de ascendencia europea. [3]
+
+
 - **Manifestaciones clínicas más relevantes:**
 - **Breve nota sobre el impacto funcional en la vida diaria:**
 
@@ -79,7 +194,9 @@ La mayoría de las fibras nerviosas situadas dentro y fuera del cerebro están e
 - **Tratamiento:**
 - **Monitoreo:**
   
-  
+### REFERENCIAS:
+
+
 # Amputación
 ### 1. Ficha informativa:
 - **Sistema afectado:** Sistema musculoesquelético, sistema nervioso, sistema tegumentario, sistema vascular.
