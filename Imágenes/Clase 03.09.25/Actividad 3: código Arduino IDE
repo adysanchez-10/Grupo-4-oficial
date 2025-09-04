@@ -1,0 +1,74 @@
+#include <LiquidCrystal.h>
+
+// Definir pines RS, E, D4, D5, D6, D7 del LCD
+LiquidCrystal lcd(7, 6, 5, 4, 3, 2);
+
+// Pines del joystick
+#define VRx A0
+#define VRy A1
+#define SW  8
+
+// Variables de posición del carácter
+int col = 0;
+int row = 0;
+
+// Variables para detectar cambio de posición
+int prevCol = -1;
+int prevRow = -1;
+
+void setup() {
+  lcd.begin(16, 2);             // Inicializar LCD 16x2
+  pinMode(SW, INPUT_PULLUP);    // Botón del joystick
+  lcd.setCursor(col, row);
+  lcd.print("X");               // Mostrar carácter inicial
+}
+
+void loop() {
+  int xVal = analogRead(VRx);   // Leer eje X del joystick
+  int yVal = analogRead(VRy);   // Leer eje Y del joystick
+  int swVal = digitalRead(SW);  // Leer botón del joystick
+
+  // Movimiento izquierda
+  if (xVal < 400) {
+    col--;
+    delay(200);
+  }
+  // Movimiento derecha
+  else if (xVal > 600) {
+    col++;
+    delay(200);
+  }
+
+  // Movimiento arriba
+  if (yVal < 400) {
+    row--;
+    delay(200);
+  }
+  // Movimiento abajo
+  else if (yVal > 600) {
+    row++;
+    delay(200);
+  }
+
+  // Limitar movimiento dentro de pantalla
+  col = constrain(col, 0, 15);
+  row = constrain(row, 0, 1);
+
+  // Si se presiona el joystick, regresar a (0,0)
+  if (swVal == LOW) {
+    col = 0;
+    row = 0;
+    delay(300);  // Anti-rebote
+  }
+
+  // Solo actualizar la pantalla si cambia la posición
+  if (col != prevCol || row != prevRow) {
+    lcd.clear();
+    lcd.setCursor(col, row);
+    lcd.print("*");
+
+    // Guardar nueva posición
+    prevCol = col;
+    prevRow = row;
+  }
+}
