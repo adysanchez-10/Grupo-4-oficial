@@ -1,0 +1,71 @@
+Link de video en Youtube: https://youtube.com/shorts/MGsZXVsQCxA?si=Kkdt9dwiiTKEzWkI
+
+//inicio de código
+#include <MPU6050.h>
+#include <Wire.h>
+
+MPU6050 mpu;
+
+const int buzzerPin = 8;
+const float g = 9.81;  // gravedad en m/s^2
+const float umbralCaidaAlta = 2.0 * g;   // > 2g
+const float umbralCaidaBaja = 0.5 * g;   // caída libre ~0.5g
+
+bool alarmaActiva = false;
+unsigned long tiempoInicioAlarma = 0;   
+const unsigned long duracionAlarma = 2000; // 5 segundos
+
+void setup() {
+  Serial.begin(9600);
+  Wire.begin();
+  mpu.initialize();
+  
+
+  if (mpu.testConnection()) {
+    Serial.println("MPU6050 conectado correctamente.");
+  } else {
+    Serial.println("Error al conectar MPU6050.");
+  }
+
+  pinMode(buzzerPin, OUTPUT);
+  digitalWrite (8,HIGH);
+}
+
+void loop() {
+  int16_t ax, ay, az;
+  mpu.getAcceleration(&ax, &ay, &az);
+
+  // Convertir a m/s^2 (rango configurado en ±2g)
+  float ax_g = ax / 16384.0 * g;
+  float ay_g = ay / 16384.0 * g;
+  float az_g = az / 16384.0 * g;
+
+  // Magnitud total de la aceleración
+  float aTotal = sqrt(ax_g * ax_g + ay_g * ay_g + az_g * az_g);
+
+  Serial.print("aTotal = ");
+  Serial.println(aTotal);
+
+  // Detectar caída y activar buzzer
+  if (!alarmaActiva && (aTotal > umbralCaidaAlta || aTotal < umbralCaidaBaja)) { //alta 19.62 baja 4.9
+    Serial.println("¡Caída detectada!");
+    tone(buzzerPin, 3000);        // sonido de alerta
+    alarmaActiva = true;
+    tiempoInicioAlarma = millis(); // guardamos el momento
+  }
+
+  // Apagar buzzer después de 5 segundos
+  if (alarmaActiva && (millis() - tiempoInicioAlarma >= duracionAlarma)) {
+    noTone(buzzerPin);
+    digitalWrite(8,HIGH);
+    alarmaActiva = false;
+    Serial.println("Alarma apagada automáticamente.");
+  }
+ 
+  delay(200);
+}
+//fin
+
+
+
+3RO
