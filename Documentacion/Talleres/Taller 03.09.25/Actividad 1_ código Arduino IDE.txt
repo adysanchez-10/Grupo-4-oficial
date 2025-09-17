@@ -1,0 +1,49 @@
+#include <DHT.h>
+#include <DHT_U.h>
+
+// Configuración del sensor DHT11
+#define DHTPIN 2          // Pin digital conectado al pin DATA del DHT11
+#define DHTTYPE DHT11     // Tipo de sensor DHT
+
+// Configuración del buzzer
+#define BUZZER_PIN 8      // Pin digital conectado al pin I/O del buzzer
+
+// Umbral de temperatura para activar la alarma
+#define TEMP_UMBRAL 30.0  // Temperatura en °C
+
+// Crear instancia del sensor DHT
+DHT dht(DHTPIN, DHTTYPE);
+
+void setup() {
+  Serial.begin(9600);          // Iniciar monitor serial
+  dht.begin();                 // Iniciar sensor DHT11
+
+  pinMode(BUZZER_PIN, OUTPUT);     // Configurar pin del buzzer como salida
+  digitalWrite(BUZZER_PIN, HIGH); // Inicialmente apagado (buzzer activo con nivel bajo)
+}
+
+void loop() {
+  // Leer la temperatura en grados Celsius
+  float temperatura = dht.readTemperature();
+
+  // Validar lectura
+  if (isnan(temperatura)) {
+    Serial.println("Error al leer del sensor DHT11");
+    return;
+  }
+
+  // Mostrar temperatura por el monitor serial
+  Serial.print("Temperatura: ");
+  Serial.print(temperatura);
+  Serial.println(" °C");
+
+  // Verificar si la temperatura supera el umbral
+  if (temperatura > TEMP_UMBRAL) {
+    Serial.println("¡Fiebre detectada! Activando buzzer...");
+    digitalWrite(BUZZER_PIN, LOW);   // Activar buzzer (LOW para buzzer activo)
+  } else {
+    digitalWrite(BUZZER_PIN, HIGH);  // Apagar buzzer
+  }
+
+  delay(2000); // Esperar 2 segundos antes de la próxima lectura
+}

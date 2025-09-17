@@ -1,0 +1,4 @@
+Enlaces a las grabaciones de las actividades: 
+Actividad 1 (medición de temperatura e hipertermia): https://youtu.be/yC2aTeGqmHo?si=vFDb-SoXTDVZFCa5
+Actividad 2 (medición de distancia con sensor ultrasónico): https://youtube.com/shorts/9jZuhoHpqUk?si=KIH18RRnCFjT4RVo
+Actividad 3 (movimiento de caracter en pantalla LCD 16x2 usando joystick): https://youtube.com/shorts/ohqkMHNKoJs?si=jbtyBM0_Of5ESPNM
