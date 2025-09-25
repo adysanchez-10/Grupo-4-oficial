@@ -1,0 +1,99 @@
+// Actividad 1 - Control seguro de velocidad y sentido
+// Versión: Pulsador con resistencia pull-up externa de 10k
+
+const int pinENA = 9;   // PWM
+const int pinIN1 = 8;
+const int pinIN2 = 7;
+const int pinPot = A0;
+const int pinBtn = 2;   // pulsador con resistencia externa de 10k
+
+// Rampa (ms)
+const unsigned long rampStepMs = 50;    
+const int rampStepPWM = 5;              
+
+// Variables de estado
+int targetPWM = 0;      
+int currentPWM = 0;     
+int direction = 1;      
+
+unsigned long lastRampMillis = 0;
+
+// Debounce
+unsigned long lastBtnChange = 0;
+const unsigned long debounceDelay = 40;
+bool btnState = HIGH;        
+bool btnStable = HIGH;       
+
+void setup() {
+  pinMode(pinENA, OUTPUT);
+  pinMode(pinIN1, OUTPUT);
+  pinMode(pinIN2, OUTPUT);
+  pinMode(pinBtn, INPUT);   //  Entrada normal (usamos resistencia externa de 10k)
+
+  analogWrite(pinENA, 0);
+  setDirection(1); // horario por defecto
+
+  Serial.begin(115200);
+  delay(50);
+  Serial.println("time_ms,pot_raw,pwm_target,pwm_actual,direction");
+}
+
+void loop() {
+  unsigned long now = millis();
+
+  // Leer potenciómetro y mapear a PWM
+  int potRaw = analogRead(pinPot);            
+  targetPWM = map(potRaw, 0, 1023, 0, 255);
+
+  // Leer botón con debounce
+  bool reading = digitalRead(pinBtn);
+  if (reading != btnState) {
+    lastBtnChange = now;
+    btnState = reading;
+  }
+  if ((now - lastBtnChange) > debounceDelay) {
+    if (btnStable != btnState) {
+      btnStable = btnState;
+      if (btnStable == LOW) {
+        // presionado -> asistencia
+        direction = -1;
+      } else {
+        // suelto -> normal
+        direction = 1;
+      }
+      setDirection(direction);
+    }
+  }
+
+  // Rampa de PWM
+  if (now - lastRampMillis >= rampStepMs) {
+    lastRampMillis = now;
+    if (currentPWM < targetPWM) {
+      currentPWM += rampStepPWM;
+      if (currentPWM > targetPWM) currentPWM = targetPWM;
+    } else if (currentPWM > targetPWM) {
+      currentPWM -= rampStepPWM;
+      if (currentPWM < targetPWM) currentPWM = targetPWM;
+    }
+    analogWrite(pinENA, currentPWM);
+  }
+
+  // Datos para Serial Plotter
+  Serial.print(now); Serial.print(",");
+  Serial.print(potRaw); Serial.print(",");
+  Serial.print(targetPWM); Serial.print(",");
+  Serial.print(currentPWM); Serial.print(",");
+  Serial.println(direction);
+
+  delay(10);
+}
+
+void setDirection(int dir) {
+  if (dir >= 1) {
+    digitalWrite(pinIN1, HIGH);
+    digitalWrite(pinIN2, LOW);
+  } else {
+    digitalWrite(pinIN1, LOW);
+    digitalWrite(pinIN2, HIGH);
+  }
+}
