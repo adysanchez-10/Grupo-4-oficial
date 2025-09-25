@@ -1,0 +1,52 @@
+#include <Servo.h>
+
+Servo myServo;
+
+const int pinFlex = A0;
+const int pinServo = 9;
+const int pinLED = 7;
+
+int flexValue = 0;      // Lectura ADC (0-1023)
+int angle = 0;          // Ángulo calculado (0-270°)
+int pulseWidth = 0;     // Pulso en microsegundos (500-2400)
+
+// Límites del servo (ajustables según datasheet)
+const int servoMin = 500;   // us
+const int servoMax = 2400;  // us
+
+void setup() {
+  Serial.begin(115200);
+
+  pinMode(pinLED, OUTPUT);
+  myServo.attach(pinServo, servoMin, servoMax);
+
+  Serial.println("ADC,pulse_us,angle_deg");
+}
+
+void loop() {
+  // Leer flexión
+  flexValue = analogRead(pinFlex); // 0–1023
+
+  // Mapear ADC -> ángulo (0–270°)
+  angle = map(flexValue, 113, 265, 0, 270);
+
+  // Convertir ángulo -> pulso microsegundos (servo DS3235)
+  pulseWidth = map(angle, 0, 270, servoMin, servoMax);
+
+  // Mover servo
+  myServo.writeMicroseconds(pulseWidth);
+
+  // Encender LED si llega al máximo
+  if (angle >= 150) {
+    digitalWrite(pinLED, HIGH);
+  } else {
+    digitalWrite(pinLED, LOW);
+  }
+
+  // Enviar datos al Serial Monitor (CSV)
+  Serial.print(flexValue); Serial.print(",");
+  Serial.print(pulseWidth); Serial.print(",");
+  Serial.println(angle);
+
+  delay(20); // estabilidad de lectura/servo
+}
