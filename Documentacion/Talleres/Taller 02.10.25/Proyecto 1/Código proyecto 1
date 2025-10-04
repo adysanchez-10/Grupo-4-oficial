@@ -1,0 +1,66 @@
+#include <LiquidCrystal.h>
+#include "BluetoothSerial.h"
+
+// Configuración del LCD (RS, E, D4, D5, D6, D7)
+LiquidCrystal lcd(14, 27, 26, 25, 33, 32);
+
+// Instancia de Bluetooth
+BluetoothSerial SerialBT;
+
+String palabra = "";
+int nstring = 0;  // Contador de caracteres recibidos
+
+void setup() {
+  Serial.begin(9600);
+  lcd.begin(16, 2);
+  lcd.print("Esperando...");
+
+  // Inicia Bluetooth con el nombre del dispositivo
+  SerialBT.begin("Grupo 4");  
+  Serial.println("Bluetooth iniciado: Grupo 4");
+}
+
+void loop() {
+  // Verificar si llega dato por Bluetooth
+  if (SerialBT.available()) {
+    char c = SerialBT.read();
+
+    if (c == '\n' || c == '\r') { // Cuando presiones "Enter"
+      lcd.clear();
+
+      if (palabra.length() <= 16) {
+        // Si cabe en una sola línea
+        lcd.setCursor(0, 0);
+        lcd.print(palabra);
+      } 
+      else if (palabra.length() <= 32) {
+        // Si ocupa dos líneas
+        lcd.setCursor(0, 0);
+        lcd.print(palabra.substring(0, 16));  // Primera línea
+        lcd.setCursor(0, 1);
+        lcd.print(palabra.substring(16));     // Segunda línea
+      } 
+      else {
+        // Si excede las 32 letras, desplazar texto
+        lcd.setCursor(0, 0);
+        lcd.print(palabra.substring(0, 16));
+        lcd.setCursor(0, 1);
+        lcd.print(palabra.substring(16, 32));
+        delay(1500);
+
+        for (int i = 0; i < palabra.length() - 16; i++) {
+          lcd.scrollDisplayLeft();
+          delay(300);
+        }
+      }
+
+      Serial.println("Mensaje recibido: " + palabra);
+      palabra = "";   // Limpia la cadena para el siguiente mensaje
+      nstring = 0;    // Reinicia contador
+    } 
+    else {
+      palabra += c;   // Agrega el carácter recibido
+      nstring++;
+    }
+  }
+}
