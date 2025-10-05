@@ -1,0 +1,33 @@
+#include <BluetoothSerial.h>
+#include <ESP32Servo.h>
+BluetoothSerial SerialBT;  // Comunicación Bluetooth
+Servo miServo;
+
+const int servoPin = 12;
+int angulo = 90;  // Posición inicial
+
+void setup() {
+  Serial.begin(115200);
+  SerialBT.begin("Grupo 4"); // Nombre del dispositivo Bluetooth
+  Serial.println("Bluetooth listo. Conéctate con: Grupo 4");
+
+  miServo.attach(servoPin);
+  miServo.write(angulo);
+}
+
+void loop() {
+  if (SerialBT.available()) {
+    String input = SerialBT.readStringUntil('\n');  // Leer hasta salto de línea
+    input.trim();
+
+    if (input.length() > 0) {
+      int ang = constrain(input.toInt(), 0, 180);
+      miServo.write(ang);
+      angulo = ang;
+
+      Serial.print("Ángulo recibido: ");
+      Serial.println(angulo);
+      SerialBT.println("OK " + String(angulo));  // Respuesta opcional
+}
+}
+}
