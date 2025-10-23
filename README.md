@@ -13,7 +13,7 @@
 
 ## Milagros Mariajosé Rodriguéz Solano
 ## ![Ady Sebastián Sánchez Guevara](https://github.com/adysanchez-10/Grupo-4-oficial/blob/562aff38edff02a814a889c67d70f16711bed23f/Im%C3%A1genes/mariajose.jpeg)
-- **Edad:** 18 años  
+- **Edad:** 20 años  
 - **Información personal:** Interés en el área de biomecánica y rehabilitación.  
 - **Rol:** Modelador 3D  
 - **Responsabilidades:**
