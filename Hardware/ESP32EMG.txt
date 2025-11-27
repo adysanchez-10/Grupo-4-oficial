@@ -1,0 +1,106 @@
+#include <ESP32Servo.h>
+#include <WiFi.h>
+#include <WebServer.h>
+
+#define EMG_PIN   34    
+#define LED1_PIN  14
+#define LED2_PIN  12
+#define SERVO1_PIN 18
+#define SERVO2_PIN 19
+#define SERVO3_PIN 21
+#define SERVO4_PIN 22
+
+const char* ssid = "leowf";
+const char* password = "92d2d01f69d1";
+
+WebServer server(80);
+
+Servo servo1, servo2, servo3, servo4;
+
+int estadoActual = 0;
+int umbral = 1100;       
+int angulo_inicial  = 90;
+int angulo_flexion  = 360;
+int angulo_extension = 30; 
+int emg = 0;
+
+void moverServos(int angulo) {
+    servo1.write(angulo);
+    servo2.write(angulo);
+    servo3.write(angulo);
+    servo4.write(angulo);
+}
+
+void handleEMG() {
+    // Ahora solo enviamos EMG1
+    String json = "{ \"EMG1\": " + String(emg) + " }";
+    server.send(200, "application/json", json);
+}
+
+void setup() {
+    Serial.begin(115200);
+
+    pinMode(LED1_PIN, OUTPUT);
+    pinMode(LED2_PIN, OUTPUT);
+    digitalWrite(LED1_PIN, HIGH);
+
+    servo1.setPeriodHertz(50);
+    servo2.setPeriodHertz(50);
+    servo3.setPeriodHertz(50);
+    servo4.setPeriodHertz(50);
+
+    servo1.attach(SERVO1_PIN);
+    servo2.attach(SERVO2_PIN);
+    servo3.attach(SERVO3_PIN);
+    servo4.attach(SERVO4_PIN);
+
+    moverServos(angulo_inicial);
+    estadoActual = 0;
+
+    WiFi.begin(ssid, password);
+    Serial.print("Conectando a WiFi");
+
+    while (WiFi.status() != WL_CONNECTED) {
+        delay(300);
+        Serial.print(".");
+    }
+    Serial.println("\nWiFi conectado!");
+    Serial.println(WiFi.localIP());
+
+    server.on("/emg", handleEMG);
+    server.begin();
+
+    Serial.println("Sistema iniciado.");
+}
+
+void loop() {
+    emg = analogRead(EMG_PIN);
+
+    Serial.print("EMG1: ");
+    Serial.println(emg);
+
+    if (emg > umbral) {
+        if (estadoActual != 1) {
+            moverServos(angulo_flexion);
+            estadoActual = 1;
+        }
+    } else {
+        if (estadoActual != 0) {
+            moverServos(angulo_inicial); 
+            estadoActual = 0;
+        }
+        else{
+            moverServos(angulo_extension);
+        }
+    }
+
+    // LED WiFi
+    if (WiFi.status() == WL_CONNECTED)
+        digitalWrite(LED2_PIN, HIGH);
+    else
+        digitalWrite(LED2_PIN, LOW);
+
+    server.handleClient();
+
+    delay(40);
+}
