@@ -1,0 +1,50 @@
+using UnityEngine.Networking;
+using System.Collections;
+using UnityEngine;
+
+public class FlyBehavior : MonoBehaviour
+{
+    [SerializeField] private float _velocity = 1.5f;
+    [SerializeField] private float _rotationSpeed = 10f;
+
+    private Rigidbody2D _rb;
+
+    // Referencia al lector EMG
+    private EMGWiFiReader emgReader;
+
+    // Umbral EMG
+    public int EMG_Threshold = 1800;
+
+    private void Start()
+    {
+        _rb = GetComponent<Rigidbody2D>();
+
+        // Nueva función recomendada por Unity (sin warnings)
+        emgReader = Object.FindFirstObjectByType<EMGWiFiReader>();
+    }
+
+    private void Update()
+    {
+        if (emgReader == null || emgReader.data == null)
+            return;
+
+        // Obtiene valor EMG
+        float EMG1 = emgReader.data.EMG1;
+
+        // Salto por señal EMG
+        if (EMG1 > EMG_Threshold)
+        {
+            _rb.linearVelocity = Vector2.up * _velocity;
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        transform.rotation = Quaternion.Euler(0, 0, _rb.linearVelocity.y * _rotationSpeed);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        GameManager.instance.GameOver();
+    }
+}
