@@ -1,0 +1,48 @@
+using UnityEngine;
+using UnityEngine.Networking;
+using System.Collections;
+
+public class EMGWiFiReader : MonoBehaviour
+{
+    public string esp32Url = "http://10.233.230.82/emg";
+    public float readInterval = 0.1f;
+
+    [System.Serializable]
+    public class EMGData
+    {
+        public float EMG1;   // Solo un canal
+    }
+
+    public EMGData data = new EMGData();
+
+    void Start()
+    {
+        StartCoroutine(ReadEMGData());
+    }
+
+    IEnumerator ReadEMGData()
+    {
+        while (true)
+        {
+            UnityWebRequest www = UnityWebRequest.Get(esp32Url);
+            yield return www.SendWebRequest();
+
+            if (www.result == UnityWebRequest.Result.ConnectionError ||
+                www.result == UnityWebRequest.Result.ProtocolError)
+            {
+                Debug.Log("Error de conexion: " + www.error);
+            }
+            else
+            {
+                string json = www.downloadHandler.text;
+
+                // Parsear JSON a las variables
+                data = JsonUtility.FromJson<EMGData>(json);
+
+                Debug.Log("EMG1: " + data.EMG1);
+            }
+
+            yield return new WaitForSeconds(readInterval);
+        }
+    }
+}
